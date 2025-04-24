@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A39A0CD32CA7215200FBD7DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A0CD22CA7215200FBD7DB /* AppDelegate.swift */; };
+		A39A0CD52CA7215200FBD7DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A0CD42CA7215200FBD7DB /* SceneDelegate.swift */; };
+		A39A0CDC2CA7215300FBD7DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A39A0CDB2CA7215300FBD7DB /* Assets.xcassets */; };
+		A39A0CDF2CA7215300FBD7DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39A0CDD2CA7215300FBD7DB /* LaunchScreen.storyboard */; };
+		A39A0CE72CA7245D00FBD7DB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A0CE62CA7245D00FBD7DB /* Constants.swift */; };
+		A39A0CF22CA7263000FBD7DB /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A0CF12CA7263000FBD7DB /* APIManager.swift */; };
+		A39A0CF42CA727E400FBD7DB /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A0CF32CA727E400FBD7DB /* APIService.swift */; };
+		A39A0CF82CA72AA000FBD7DB /* CardShopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A0CF72CA72AA000FBD7DB /* CardShopping.swift */; };
+		A39A0CFC2CA72B9400FBD7DB /* WMSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A0CFB2CA72B9400FBD7DB /* WMSuccessView.swift */; };
+		A39A0CFE2CA72BD800FBD7DB /* WMSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A0CFD2CA72BD800FBD7DB /* WMSuccessViewController.swift */; };
+		A39A0D042CA72D8B00FBD7DB /* WMEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A0D032CA72D8B00FBD7DB /* WMEmptyStateView.swift */; };
+		A39A0D062CA72E2D00FBD7DB /* WMEmptyStateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A0D052CA72E2D00FBD7DB /* WMEmptyStateViewController.swift */; };
+		A39A0D0A2CA7301800FBD7DB /* WMLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A0D092CA7301800FBD7DB /* WMLoading.swift */; };
+		A39A0D122CA7355000FBD7DB /* WMProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A0D112CA7355000FBD7DB /* WMProfileView.swift */; };
+		A39A0D142CA735B700FBD7DB /* WMProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A0D132CA735B700FBD7DB /* WMProfileViewController.swift */; };
+		A39A0D282CA740DE00FBD7DB /* WMCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A0D272CA740DE00FBD7DB /* WMCarView.swift */; };
+		A39A0D2A2CA7414000FBD7DB /* WMCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A0D292CA7414000FBD7DB /* WMCarViewController.swift */; };
+		A39A0D2C2CA7416E00FBD7DB /* WMCarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A0D2B2CA7416E00FBD7DB /* WMCarViewModel.swift */; };
+		A39A0D302CA7424A00FBD7DB /* WMCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A0D2F2CA7424A00FBD7DB /* WMCell.swift */; };
+		A39A0D382CA744AD00FBD7DB /* WebMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A0D372CA744AD00FBD7DB /* WebMovies.swift */; };
+		A39A0D3D2CA749BE00FBD7DB /* WMHomeview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A0D3C2CA749BE00FBD7DB /* WMHomeview.swift */; };
+		A39A0D3F2CA74A5A00FBD7DB /* WMHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A0D3E2CA74A5A00FBD7DB /* WMHomeViewController.swift */; };
+		A39A0D412CA74ADB00FBD7DB /* WMHomeViewlModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A0D402CA74ADB00FBD7DB /* WMHomeViewlModel.swift */; };
+		A39A0D472CA74C7500FBD7DB /* WMTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A0D462CA74C7500FBD7DB /* WMTabBarViewController.swift */; };
+		CAA3B7292173481EAA7B2435 /* Pods_WeM0vies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 478A4A5B4F036908F48ED538 /* Pods_WeM0vies.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0596F06267ABEE8F02C7BDE3 /* Pods-WeM0vies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeM0vies.debug.xcconfig"; path = "Target Support Files/Pods-WeM0vies/Pods-WeM0vies.debug.xcconfig"; sourceTree = "<group>"; };
+		478A4A5B4F036908F48ED538 /* Pods_WeM0vies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeM0vies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96495D2E99CDBBAE04CA0F9F /* Pods-WeM0vies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeM0vies.release.xcconfig"; path = "Target Support Files/Pods-WeM0vies/Pods-WeM0vies.release.xcconfig"; sourceTree = "<group>"; };
+		A30466842CAA001300234115 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A39A0CCF2CA7215200FBD7DB /* WeM0vies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeM0vies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39A0CD22CA7215200FBD7DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A39A0CD42CA7215200FBD7DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A39A0CDB2CA7215300FBD7DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A39A0CDE2CA7215300FBD7DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A39A0CE62CA7245D00FBD7DB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A39A0CF12CA7263000FBD7DB /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		A39A0CF32CA727E400FBD7DB /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		A39A0CF72CA72AA000FBD7DB /* CardShopping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardShopping.swift; sourceTree = "<group>"; };
+		A39A0CFB2CA72B9400FBD7DB /* WMSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMSuccessView.swift; sourceTree = "<group>"; };
+		A39A0CFD2CA72BD800FBD7DB /* WMSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMSuccessViewController.swift; sourceTree = "<group>"; };
+		A39A0D032CA72D8B00FBD7DB /* WMEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMEmptyStateView.swift; sourceTree = "<group>"; };
+		A39A0D052CA72E2D00FBD7DB /* WMEmptyStateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMEmptyStateViewController.swift; sourceTree = "<group>"; };
+		A39A0D092CA7301800FBD7DB /* WMLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMLoading.swift; sourceTree = "<group>"; };
+		A39A0D112CA7355000FBD7DB /* WMProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMProfileView.swift; sourceTree = "<group>"; };
+		A39A0D132CA735B700FBD7DB /* WMProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMProfileViewController.swift; sourceTree = "<group>"; };
+		A39A0D272CA740DE00FBD7DB /* WMCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WMCarView.swift; path = WeM0vies/Sources/Controllers/Card/WMCard/WMCard/View/WMCarView.swift; sourceTree = SOURCE_ROOT; };
+		A39A0D292CA7414000FBD7DB /* WMCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WMCarViewController.swift; path = WeM0vies/Sources/Controllers/Card/WMCard/WMCard/View/WMCarViewController.swift; sourceTree = SOURCE_ROOT; wrapsLines = 0; };
+		A39A0D2B2CA7416E00FBD7DB /* WMCarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMCarViewModel.swift; sourceTree = "<group>"; };
+		A39A0D2F2CA7424A00FBD7DB /* WMCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMCell.swift; sourceTree = "<group>"; };
+		A39A0D372CA744AD00FBD7DB /* WebMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebMovies.swift; sourceTree = "<group>"; };
+		A39A0D3C2CA749BE00FBD7DB /* WMHomeview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMHomeview.swift; sourceTree = "<group>"; };
+		A39A0D3E2CA74A5A00FBD7DB /* WMHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMHomeViewController.swift; sourceTree = "<group>"; };
+		A39A0D402CA74ADB00FBD7DB /* WMHomeViewlModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMHomeViewlModel.swift; sourceTree = "<group>"; };
+		A39A0D462CA74C7500FBD7DB /* WMTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMTabBarViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A39A0CCC2CA7215200FBD7DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA3B7292173481EAA7B2435 /* Pods_WeM0vies.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F9C1F3C3EC66E2BE9FBB426 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				478A4A5B4F036908F48ED538 /* Pods_WeM0vies.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		816EF708D34ADBB2116AA31C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0596F06267ABEE8F02C7BDE3 /* Pods-WeM0vies.debug.xcconfig */,
+				96495D2E99CDBBAE04CA0F9F /* Pods-WeM0vies.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A39A0CC62CA7215200FBD7DB = {
+			isa = PBXGroup;
+			children = (
+				A39A0CD12CA7215200FBD7DB /* WeM0vies */,
+				A39A0CD02CA7215200FBD7DB /* Products */,
+				816EF708D34ADBB2116AA31C /* Pods */,
+				1F9C1F3C3EC66E2BE9FBB426 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A39A0CD02CA7215200FBD7DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A39A0CCF2CA7215200FBD7DB /* WeM0vies.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A39A0CD12CA7215200FBD7DB /* WeM0vies */ = {
+			isa = PBXGroup;
+			children = (
+				A39A0CEE2CA7253F00FBD7DB /* Resources */,
+				A39A0CEF2CA725E200FBD7DB /* Sources */,
+				A30466842CAA001300234115 /* Info.plist */,
+			);
+			path = WeM0vies;
+			sourceTree = "<group>";
+		};
+		A39A0CEE2CA7253F00FBD7DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A39A0CD22CA7215200FBD7DB /* AppDelegate.swift */,
+				A39A0CD42CA7215200FBD7DB /* SceneDelegate.swift */,
+				A39A0CDB2CA7215300FBD7DB /* Assets.xcassets */,
+				A39A0CDD2CA7215300FBD7DB /* LaunchScreen.storyboard */,
+				A39A0CE62CA7245D00FBD7DB /* Constants.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A39A0CEF2CA725E200FBD7DB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A39A0CF02CA725EF00FBD7DB /* API */,
+				A39A0CF52CA72A2100FBD7DB /* Controllers */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		A39A0CF02CA725EF00FBD7DB /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A39A0CF12CA7263000FBD7DB /* APIManager.swift */,
+				A39A0CF32CA727E400FBD7DB /* APIService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		A39A0CF52CA72A2100FBD7DB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A39A0CF62CA72A4000FBD7DB /* Card */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A39A0CF62CA72A4000FBD7DB /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				A39A0CF72CA72AA000FBD7DB /* CardShopping.swift */,
+				A39A0CF92CA72ABC00FBD7DB /* WMSuccess */,
+				A39A0D012CA72CFA00FBD7DB /* WMEmptyState */,
+				A39A0D072CA72E8200FBD7DB /* WMLoading */,
+				A39A0D0F2CA734AA00FBD7DB /* WMProfile */,
+				A39A0D152CA7365500FBD7DB /* WMCard */,
+				A39A0D2D2CA741DF00FBD7DB /* WMHome */,
+				A39A0D442CA74BB700FBD7DB /* WMTabBar */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		A39A0CF92CA72ABC00FBD7DB /* WMSuccess */ = {
+			isa = PBXGroup;
+			children = (
+				A39A0CFB2CA72B9400FBD7DB /* WMSuccessView.swift */,
+				A39A0CFD2CA72BD800FBD7DB /* WMSuccessViewController.swift */,
+			);
+			path = WMSuccess;
+			sourceTree = "<group>";
+		};
+		A39A0CFA2CA72B0B00FBD7DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A39A0D032CA72D8B00FBD7DB /* WMEmptyStateView.swift */,
+				A39A0D052CA72E2D00FBD7DB /* WMEmptyStateViewController.swift */,
+			);
+			name = View;
+			path = ../WMSuccess/View;
+			sourceTree = "<group>";
+		};
+		A39A0D012CA72CFA00FBD7DB /* WMEmptyState */ = {
+			isa = PBXGroup;
+			children = (
+				A39A0CFA2CA72B0B00FBD7DB /* View */,
+			);
+			path = WMEmptyState;
+			sourceTree = "<group>";
+		};
+		A39A0D072CA72E8200FBD7DB /* WMLoading */ = {
+			isa = PBXGroup;
+			children = (
+				A39A0D0E2CA7346E00FBD7DB /* View */,
+			);
+			path = WMLoading;
+			sourceTree = "<group>";
+		};
+		A39A0D0E2CA7346E00FBD7DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A39A0D092CA7301800FBD7DB /* WMLoading.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A39A0D0F2CA734AA00FBD7DB /* WMProfile */ = {
+			isa = PBXGroup;
+			children = (
+				A39A0D102CA734CC00FBD7DB /* View */,
+			);
+			path = WMProfile;
+			sourceTree = "<group>";
+		};
+		A39A0D102CA734CC00FBD7DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A39A0D112CA7355000FBD7DB /* WMProfileView.swift */,
+				A39A0D132CA735B700FBD7DB /* WMProfileViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A39A0D152CA7365500FBD7DB /* WMCard */ = {
+			isa = PBXGroup;
+			children = (
+				A39A0D262CA7406000FBD7DB /* View */,
+			);
+			path = WMCard;
+			sourceTree = "<group>";
+		};
+		A39A0D262CA7406000FBD7DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A39A0D272CA740DE00FBD7DB /* WMCarView.swift */,
+				A39A0D292CA7414000FBD7DB /* WMCarViewController.swift */,
+				A39A0D2B2CA7416E00FBD7DB /* WMCarViewModel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A39A0D2D2CA741DF00FBD7DB /* WMHome */ = {
+			isa = PBXGroup;
+			children = (
+				A39A0D2E2CA7421200FBD7DB /* Cell */,
+				A39A0D362CA7443B00FBD7DB /* Model */,
+				A39A0D3B2CA745DC00FBD7DB /* View */,
+			);
+			path = WMHome;
+			sourceTree = "<group>";
+		};
+		A39A0D2E2CA7421200FBD7DB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A39A0D2F2CA7424A00FBD7DB /* WMCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A39A0D362CA7443B00FBD7DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A39A0D372CA744AD00FBD7DB /* WebMovies.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A39A0D3B2CA745DC00FBD7DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A39A0D3C2CA749BE00FBD7DB /* WMHomeview.swift */,
+				A39A0D3E2CA74A5A00FBD7DB /* WMHomeViewController.swift */,
+				A39A0D402CA74ADB00FBD7DB /* WMHomeViewlModel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A39A0D442CA74BB700FBD7DB /* WMTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A39A0D452CA74C1400FBD7DB /* View */,
+			);
+			path = WMTabBar;
+			sourceTree = "<group>";
+		};
+		A39A0D452CA74C1400FBD7DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A39A0D462CA74C7500FBD7DB /* WMTabBarViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A39A0CCE2CA7215200FBD7DB /* WeM0vies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A39A0CE32CA7215300FBD7DB /* Build configuration list for PBXNativeTarget "WeM0vies" */;
+			buildPhases = (
+				68DFD4437DA61A46ED990F6A /* [CP] Check Pods Manifest.lock */,
+				A39A0CCB2CA7215200FBD7DB /* Sources */,
+				A39A0CCC2CA7215200FBD7DB /* Frameworks */,
+				A39A0CCD2CA7215200FBD7DB /* Resources */,
+				71041EBE7606587BF22B24F5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeM0vies;
+			productName = WeM0vies;
+			productReference = A39A0CCF2CA7215200FBD7DB /* WeM0vies.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A39A0CC72CA7215200FBD7DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A39A0CCE2CA7215200FBD7DB = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = A39A0CCA2CA7215200FBD7DB /* Build configuration list for PBXProject "WeM0vies" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A39A0CC62CA7215200FBD7DB;
+			productRefGroup = A39A0CD02CA7215200FBD7DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A39A0CCE2CA7215200FBD7DB /* WeM0vies */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A39A0CCD2CA7215200FBD7DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39A0CDF2CA7215300FBD7DB /* LaunchScreen.storyboard in Resources */,
+				A39A0CDC2CA7215300FBD7DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68DFD4437DA61A46ED990F6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeM0vies-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71041EBE7606587BF22B24F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeM0vies/Pods-WeM0vies-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeM0vies/Pods-WeM0vies-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeM0vies/Pods-WeM0vies-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A39A0CCB2CA7215200FBD7DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39A0D062CA72E2D00FBD7DB /* WMEmptyStateViewController.swift in Sources */,
+				A39A0D302CA7424A00FBD7DB /* WMCell.swift in Sources */,
+				A39A0D472CA74C7500FBD7DB /* WMTabBarViewController.swift in Sources */,
+				A39A0D412CA74ADB00FBD7DB /* WMHomeViewlModel.swift in Sources */,
+				A39A0CF22CA7263000FBD7DB /* APIManager.swift in Sources */,
+				A39A0CF42CA727E400FBD7DB /* APIService.swift in Sources */,
+				A39A0CD32CA7215200FBD7DB /* AppDelegate.swift in Sources */,
+				A39A0D0A2CA7301800FBD7DB /* WMLoading.swift in Sources */,
+				A39A0D2C2CA7416E00FBD7DB /* WMCarViewModel.swift in Sources */,
+				A39A0D282CA740DE00FBD7DB /* WMCarView.swift in Sources */,
+				A39A0CD52CA7215200FBD7DB /* SceneDelegate.swift in Sources */,
+				A39A0D3F2CA74A5A00FBD7DB /* WMHomeViewController.swift in Sources */,
+				A39A0D122CA7355000FBD7DB /* WMProfileView.swift in Sources */,
+				A39A0CFE2CA72BD800FBD7DB /* WMSuccessViewController.swift in Sources */,
+				A39A0D3D2CA749BE00FBD7DB /* WMHomeview.swift in Sources */,
+				A39A0D142CA735B700FBD7DB /* WMProfileViewController.swift in Sources */,
+				A39A0D2A2CA7414000FBD7DB /* WMCarViewController.swift in Sources */,
+				A39A0D382CA744AD00FBD7DB /* WebMovies.swift in Sources */,
+				A39A0CE72CA7245D00FBD7DB /* Constants.swift in Sources */,
+				A39A0CFC2CA72B9400FBD7DB /* WMSuccessView.swift in Sources */,
+				A39A0D042CA72D8B00FBD7DB /* WMEmptyStateView.swift in Sources */,
+				A39A0CF82CA72AA000FBD7DB /* CardShopping.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A39A0CDD2CA7215300FBD7DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A39A0CDE2CA7215300FBD7DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A39A0CE12CA7215300FBD7DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A39A0CE22CA7215300FBD7DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A39A0CE42CA7215300FBD7DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0596F06267ABEE8F02C7BDE3 /* Pods-WeM0vies.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeM0vies/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Johnatan-Silva.br.WeM0vies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A39A0CE52CA7215300FBD7DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96495D2E99CDBBAE04CA0F9F /* Pods-WeM0vies.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeM0vies/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Johnatan-Silva.br.WeM0vies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A39A0CCA2CA7215200FBD7DB /* Build configuration list for PBXProject "WeM0vies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39A0CE12CA7215300FBD7DB /* Debug */,
+				A39A0CE22CA7215300FBD7DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A39A0CE32CA7215300FBD7DB /* Build configuration list for PBXNativeTarget "WeM0vies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39A0CE42CA7215300FBD7DB /* Debug */,
+				A39A0CE52CA7215300FBD7DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A39A0CC72CA7215200FBD7DB /* Project object */;
+}
